@@ -1,0 +1,83 @@
+# Build output and private protection configuration
+bin/
+obj/
+/artifacts/
+/build_protection/
+/xapr/
+
+# IDE, agents, skills and local automation
+.vs/
+.windsurf/
+.agents
+.vscode/
+.codex/
+.claude/
+.claude-octopus/
+.github/
+*.user
+*.suo
+*.cache
+AGENTS.md
+
+# Backups and local development history
+backups/
+**/backups/
+changelog.txt
+SOURCE-AVAILABILITY.md
+
+# Generated releases and staging directories
+github_release/
+github_release_stable/
+github_release_testing/
+dual_builds/
+.github_release.staging/
+.github_release.staging-*/
+github_release.previous-*/
+.github_release_stable.staging/
+.github_release_testing.staging/
+.github_release_stable.previous-*/
+.github_release_testing.previous-*/
+
+# Internal tooling, documentation and tests
+*.py
+docs/
+TestResults/
+test/
+tests/
+*.Tests/
+*.Core/
+
+# Local images and plugin references
+*.png
+Plugin References/
+Previous Releases/
+*[Ss]igs.cs
+*[Ss]ig.cs
+*[Ss]ignature*.cs
+
+# Python cache and crash logs
+__pycache__/
+*.pyc
+crash_log_*.log
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Zod publishes informational metadata only. Keep this allowlist last.
+# All other root files and directories, including new skill-created folders,
+# remain private. Do not add source or asset exceptions from other projects.
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/THIRD-PARTY-NOTICES.txt
+
+# Public manifest and icon for repository/feed scanners.
+!/XAZod/
+/XAZod/*
+!/XAZod/XAZod.json
+!/XAZod/images/
+/XAZod/images/*
+!/XAZod/images/icon.png
