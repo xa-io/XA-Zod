@@ -3,7 +3,7 @@
   "Name": "XA Zod",
   "InternalName": "XAZod",
   "RepoUrl": "https://github.com/xa-io/XA-Zod",
-  "AssemblyVersion": "0.0.0.1",
+  "AssemblyVersion": "0.0.0.2",
   "Punchline": "Information and access to the XA Zod early beta.",
   "Description": "XA Zod is a private early beta testing environment for XA Slave functionality. Access may be available through Aethertek collaboration, Ko-fi support or donations. Public download provides access information only. Features may remain private for months or indefinitely.",
   "ApplicableVersion": "any",
