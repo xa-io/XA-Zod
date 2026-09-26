@@ -3,7 +3,7 @@
   "Name": "XA Zod",
   "InternalName": "XAZod",
   "RepoUrl": "https://github.com/xa-io/XA-Zod",
-  "AssemblyVersion": "0.0.0.3",
+  "AssemblyVersion": "0.0.0.5",
   "Punchline": "Aethertek's private early beta testing environment.",
   "Description": "XA Zod is Aethertek's private early beta testing environment for experimental features. Participation is arranged through the Aethertek community. Downloading the plugin does not grant private access, and features may remain private indefinitely.",
   "ApplicableVersion": "any",
